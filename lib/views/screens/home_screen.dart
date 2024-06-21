@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
             childCount: 40,
           )),
           SliverPersistentHeader(
-              pinned: true,
+              pinned: false,
               delegate: _SliverAppBarDelegate(
                   minHeight: 60,
                   maxHeight: 200,
